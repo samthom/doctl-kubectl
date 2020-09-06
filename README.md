@@ -1,6 +1,6 @@
 # doctl-kubectl
 
-[![Build Status](https://travis-ci.org/samthom/doctl-kubectl.svg?branch=master)](https://travis-ci.org/samthom/doctl-kubectl)![Docker Pulls](https://img.shields.io/docker/pulls/samthom/doctl-kubectl) ![Docker Stars](https://img.shields.io/docker/stars/samthom/doctl-kubectl) ![MicroBadger Layers](https://img.shields.io/microbadger/layers/samthom/doctl-kubectl) ![MicroBadger Size](https://img.shields.io/microbadger/image-size/samthom/doctl-kubectl)
+[![Build Status](https://travis-ci.org/samthom/doctl-kubectl.svg?branch=master)](https://travis-ci.org/samthom/doctl-kubectl) ![Docker Pulls](https://img.shields.io/docker/pulls/samthom/doctl-kubectl) ![Docker Stars](https://img.shields.io/docker/stars/samthom/doctl-kubectl) 
 
 > Docker image containing `kubectl` and `doctl`.
 > I use tags with _doctl_ versions to make it simpler.
