@@ -6,7 +6,7 @@ before_install:
   - docker build -t samthom/doctl-kubectl:1.46 .
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 script:
-  - go get github.com/docker/docker
+  - export GO111MODULE=on
   - go test -v ./test
 after_script:
   - docker push samthom/doctl-kubectl:1.46
